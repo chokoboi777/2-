@@ -8,7 +8,7 @@ function DanilaMosunov($a, $b, $c) {
 
     if ($a === $b && $b === $c) {
         return "Треугольник равносторонний.";
-    } elseif ($a == $b || $a == $c || $b == $c) {
+    } elseif ($a === $b || $a === $c || $b === $c) {
         return "Треугольник равнобедренный.";
     } else {
         return "Треугольник разносторонний.";
